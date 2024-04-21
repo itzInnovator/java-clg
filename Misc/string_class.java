@@ -3,7 +3,6 @@ public class string_class {
 
         String s1 = "testing";
 
-
         System.out.println("Length of String : "+s1.length()); // Returns the length of string
 
         char c1 = s1.charAt(3);
