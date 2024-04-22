@@ -23,8 +23,9 @@ public class string_class {
         String s3 = "heddo".replace('d', 'l');
         System.out.println("Replacing characters : "+s3); // Replacing the characters
         
-        String s4 = s3.concat(" world");
+        String s4 = "Hello".concat(" World");
         System.out.println("Concatenating String : "+s4); // Concatenating String
+
 
     }
 }

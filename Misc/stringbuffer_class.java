@@ -16,6 +16,8 @@ public class stringbuffer_class {
         sb.delete(0, 10);
         System.out.println(sb); // Deleting data
 
+        System.out.println("Length of String : "+sb.length()); // Length of the object
+
         System.out.println(sb.reverse()); // Reversing string
 
     }
