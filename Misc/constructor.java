@@ -1,5 +1,5 @@
 /* 
- * Showcasing use of two constructors by adding values of two variables a and b
+ * Showcasing use of three constructors (Constructor Overloading) by adding values of two variables a and b
 */
 
 class test {
@@ -33,14 +33,13 @@ class test {
 
 public class constructor {
     public static void main(String args[]) {
+
         test obj1 = new test();
         test obj2 = new test(50, 40);
-
         test obj3 = new test(obj2);
 
         obj1.sum();
         obj2.sum();
         obj3.sum();
-    }
-    
+    } 
 }
