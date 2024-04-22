@@ -1,3 +1,7 @@
+/* 
+ * Showcasing usage of StringBuffer Class methods
+*/
+
 public class stringbuffer_class {
     public static void main(String args[]) {
 

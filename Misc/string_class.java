@@ -1,3 +1,7 @@
+/* 
+ * Showcasing usage of String Class methods
+*/
+
 public class string_class {
     public static void main(String args[]) {
 
@@ -18,6 +22,9 @@ public class string_class {
 
         String s3 = "heddo".replace('d', 'l');
         System.out.println("Replacing characters : "+s3); // Replacing the characters
+        
+        String s4 = s3.concat(" world");
+        System.out.println("Concatenating String : "+s4); // Concatenating String
 
     }
 }
