@@ -12,21 +12,19 @@ public class arraylist {
         al.add(30);
         al.add(40);
 
-        al.remove(2);
+        al.remove(2); // Removes element from index 2
 
-        System.out.println("ArrayList Size : "+al.size());
+        System.out.println("ArrayList Size : " + al.size()); // Returns size of ArrayList
 
-        
         Iterator<Integer> iterator = al.iterator();
 
-        System.out.println("Has next element? : "+iterator.hasNext());
-
+        System.out.println("\nElements in ArrayList: ");
         while (iterator.hasNext()) {
-          int number = iterator.next();
-          System.out.println(number);
+            int number = iterator.next();
+            System.out.println(number);
         }
+
+        iterator.remove(); // Removes the current element
 
     }
 }
-
-
