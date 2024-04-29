@@ -1,5 +1,5 @@
 /* 
- * Here, we'll be printing numbers between 1 - 10 in ascending and descending order simultaneously.
+ * Here, we'll be printing numbers between 1 - 10 in ascending and descending order simultaneously
 */
 
 class thread1 extends Thread {

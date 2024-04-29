@@ -1,3 +1,7 @@
+/* 
+ * Showcasing usage of Runnable interface in Multithreading
+*/
+
 class A implements Runnable {
     public void run() {
         try {
