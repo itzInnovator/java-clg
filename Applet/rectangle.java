@@ -5,6 +5,7 @@ public class rectangle extends Applet {
     public void paint(Graphics g) {
 
         g.drawRect(30, 40, 100, 60);
+        g.fillRect(30, 120, 100, 60);
 
     }
 }

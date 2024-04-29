@@ -6,6 +6,7 @@ public class circle extends Applet {
         public void paint(Graphics g) {
 
             g.drawOval(20, 30, 100, 100);
+            g.fillOval(20, 150, 100, 100);
 
         }
 }
