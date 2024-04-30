@@ -1,5 +1,5 @@
 /*
- * Put your own file path instead of "count_lines.java.java" at line 9 or just create a file with that name and insert data.
+ * Put your own file path instead of "count_lines.java" at line 9 or just create a file with that name and insert data.
 */
 
 import java.io.*;
@@ -19,8 +19,8 @@ public class count_words {
                 String[] words = s.split(" ");
                 word_count = word_count + words.length;
             }
-            
-            System.out.println("Number of words (characters) in the file : " + word_count);
+
+            System.out.println("Number of words in the file : " + word_count);
 
             fr.close();
             br.close();
