@@ -18,3 +18,5 @@ public class static_data {
         System.out.println("The number of objects created : " + count);
     }
 }
+
+
