@@ -23,3 +23,5 @@ public class abstract_class {
         b.callmetoo();
     }
 }
+
+
