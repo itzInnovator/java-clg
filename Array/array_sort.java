@@ -19,7 +19,7 @@ public class array_sort {
             }
         }
 
-        System.out.println("Array is Ascending order: ");
+        System.out.println("Array in Ascending order: ");
         for(i=0; i<n; i++) {
             System.out.print(a[i]+"\t");
         }
