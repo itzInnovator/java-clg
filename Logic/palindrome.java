@@ -12,21 +12,21 @@ public class palindrome {
         System.out.print("Enter string : ");
         String str = sc.nextLine();
 
-        int length = str.length()-1;
-        int i=0, flag=0;
+        int length = str.length() - 1;
+        int i = 0, flag = 0;
         int r = length;
 
-        while (i<=r) {
-            if(str.charAt(i) == str.charAt(r)) {
+        while (i <= r) {
+            if (str.charAt(i) == str.charAt(r)) {
                 i++;
                 r--;
             } else {
-                flag=0;
+                flag = 1;
                 break;
             }
         }
 
-        if(flag == 1) {
+        if (flag == 0) {
             System.out.println("String is a Palindrome!");
         } else {
             System.out.println("String is not a Palindrome!");
